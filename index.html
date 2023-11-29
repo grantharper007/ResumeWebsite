@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Grant Harper's Resume">
     <meta name="author" content="Grant Harper">
+    <script src="https://kit.fontawesome.com/5a53f72dce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resume.html">
     <link rel="stylesheet" href="style.css">
     <title>Grant Harper</title>
 </head>
@@ -38,31 +40,65 @@
         </div>
     </section>
     <section id="aboutme">
-
+        <div class="container">
+            <h2>About Me</h2>
+        </div>
     </section>
     <section id="traits">
-
+        <div class="container">
+            <h2>Traits</h2>
+            <div>Digital Content Creator</div>
+            <div>Distinguished Speaker</div>
+            <div>Problem Solver</div>
+            <div>Effective Communicator</div>
+            <div>Determined Achiever</div>
+        </div>
     </section>
     <footer>
         <div id="quickID">
-            QUICK ID
-            Phone
-    
-            270-576-8494
-    
-            Email
-    
-            grantpharper@barren.kyschools.us
-    
-            Website
-    
-            Address
-    
-            https://grantharper8.wixsite.com/grant-harper---fbla
-    
-            507 Trojan Trail, Glasgow, KY 42141
+            <h2>QUICK ID</h2>
+            <p>Phone</p>
+            <li>270-576-8494</li>
+            <p>Email</p>
+            <li>grantpharper@barren.kyschools.us</li>
+            <p>Address:</p>
+            <li>507 Trojan Trail, Glasgow, KY 42141</li>
         </div>
-        
+        <div id="contant">
+            <h3>Contact:</h3>
+            <!-- FormSubmit allows for an email address to be added to the form tag so that when the form is submitted the content/data in the form will be sent to the email added on the end of the "formsubmit.co" URL (NOTE: The "method" set for the form is POST not GET, because there is data being sent (AKA Posted) when the form request/submission is completed) -->
+            <!-- Syntax Example -->
+            <form class="quote" action="https://formsubmit.co/grant.harper@stu.barren.kyschools.us" method="Posted">
+                <div>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" placeholder="Name" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" placeholder="Email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button class="btn-1">Send</button>
+            </form>
+        </div>
+        <div id="bottomFooter">
+            <a href="resume.html">Full Resume (Single Page)</a>
+            <div class="socials">
+                <h3>Social Networks:</h3>
+                <!-- REMEMBER TO ADD THE LINKS!!! -->
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/watch?v=j9LIxDHqs8o&t=62s"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 
